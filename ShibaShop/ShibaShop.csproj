@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{737FF553-AAD3-4CA5-8A6E-592B00EB71BE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ShibaShop</RootNamespace>
+    <AssemblyName>ShibaShop</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ShibaShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShibaShop.Designer.cs">
+      <DependentUpon>ShibaShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ShibaShop.resx">
+      <DependentUpon>ShibaShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinh-nen-dep-100.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yasuo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leesin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Summoners_Rift.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yasuomakiem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yasuotruedame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youtube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xem1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xem2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\briefcase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portfolio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bag1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leesin_fpx.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leesin_moaythai.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leesin_nolongcuoc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leesin_tuyetvothan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yasuo_caoboi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yasuo_linhhoa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yasuo_makiem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yasuo_truedame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yone1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yone_taanhsongkiem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yone_thankiem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zed_hungthan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zed_loikiem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zed_quanquan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zed_sieupham.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yone_chienbinh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-arrow %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legend.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.lol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_lmht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tinhhoa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tinh-Hoa-Lam-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tinh-Hoa-Lam-31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coinsss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coinss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portfolioo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yasuo_chanlong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yasuo_huyenlong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baggg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tinh-Hoa-Lam-333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tinh-Hoa-Lam-3333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tinh-Hoa-Lamm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tinh-Hoa-Lammm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baggg_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tinhhoa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tinhhoamini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-arroww.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_champ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_champ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Garena_Cover_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
