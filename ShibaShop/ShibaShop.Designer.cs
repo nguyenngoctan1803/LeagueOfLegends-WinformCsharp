@@ -1100,9 +1100,9 @@
             this.account_panel.Controls.Add(this.avatar);
             this.account_panel.Controls.Add(this.label1);
             this.account_panel.Controls.Add(this.panel2);
-            this.account_panel.Location = new System.Drawing.Point(252, 673);
+            this.account_panel.Location = new System.Drawing.Point(252, 107);
             this.account_panel.Name = "account_panel";
-            this.account_panel.Size = new System.Drawing.Size(1029, 129);
+            this.account_panel.Size = new System.Drawing.Size(1029, 695);
             this.account_panel.TabIndex = 9;
             this.account_panel.Visible = false;
             // 

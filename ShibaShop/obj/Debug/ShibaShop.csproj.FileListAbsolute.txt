@@ -26,3 +26,17 @@ D:\C#\bài tập\ShibaShop\ShibaShop\obj\Debug\ShibaShop.Properties.Resources.re
 D:\C#\bài tập\ShibaShop\ShibaShop\obj\Debug\ShibaShop.csproj.GenerateResource.cache
 D:\C#\bài tập\ShibaShop\ShibaShop\obj\Debug\ShibaShop.exe
 D:\C#\bài tập\ShibaShop\ShibaShop\obj\Debug\ShibaShop.pdb
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\bin\Debug\ShibaShop.exe.config
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\bin\Debug\ShibaShop.exe
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\bin\Debug\ShibaShop.pdb
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\bin\Debug\Interop.WMPLib.dll
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\bin\Debug\AxInterop.WMPLib.dll
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\obj\Debug\ShibaShop.csprojAssemblyReference.cache
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\obj\Debug\Interop.WMPLib.dll
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\obj\Debug\AxInterop.WMPLib.dll
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\obj\Debug\ShibaShop.csproj.ResolveComReference.cache
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\obj\Debug\ShibaShop.ShibaShop.resources
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\obj\Debug\ShibaShop.Properties.Resources.resources
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\obj\Debug\ShibaShop.csproj.GenerateResource.cache
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\obj\Debug\ShibaShop.exe
+D:\C#\bài tập\ShibaShop\LeagueOfLegends-WinformCsharp\ShibaShop\obj\Debug\ShibaShop.pdb
